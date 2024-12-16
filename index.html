@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1,h2{
+        text-align: center;
+       }
+
+       .details h4 {
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="head" id="head">
+        <h1 id="name">  </h1>
+        <div class="details">
+            <h4 id="c-details">   </h4>
+            <h4 id="s-links">    </h4>
+        </div>
+    </div> <hr>
+
+    <div class="career-obj">
+        <h2 >Career Objective </h2>
+        <p id="data">   </p>
+    </div> <hr> 
+
+    <div class="education">
+        <h2>Education</h2>
+        <p id="bedu"> </p>
+        <p id="cedu"></p>
+    </div>  <hr>
+
+    <div id="projects" >
+        <h3>Ecommerce website for clothing</h3>
+        <p id="detail"></p>
+        <h3>Horizontal Axis Savonius Turbine (Academic Project)</h3>
+        <p id="detail2"></p>
+    </div> <hr>
+
+    <div id="skills">
+        <h2>SKills (Technical & non-technical Skills</h2>
+        <p id="skill"></p>
+    </div> <hr>
+
+    <div id="declaration">
+        <h2>declaration</h2>
+        <p id="declar"></p>
+    </div>
+
+    <script>
+        let name = document.getElementById("name");
+        name.innerText = "Ravi Kishore Kollana";
+        name.style.textAlign = "center"
+
+        let contact = document.getElementById("c-details");
+        contact.innerHTML = "email : ravikishorekollana728@gmail.com | phone number : +91 8074778348 "
+
+        let links = document.getElementById("s-links");
+        links.innerHTML = "github : https://github.com/BobbBRawler | linkedin : https://www.linkedin.com/feed/"
+
+        let career = document.getElementById("data");
+        career.innerText = "Motivated and detail-oriented web developer seeking to leverage technical expertise in front-end and back-end development to create dynamic, user-friendly, and responsive websites. Passionate about utilizing cutting-edge technologies to solve real-world problems and deliver seamless digital experiences while continuously enhancing skills in a collaborative and fast-paced environment."
+
+        let Education = document.getElementById("bedu");
+        Education.innerHTML = "maharaj vijayaram gajapathiraj college of engineering | stream : Mechanical engineering | cgpa : 7.33"
+
+        let Education2= document.getElementById("cedu");
+        Education2.innerHTML = "narayana junior college | stream : MPC | cgpa : 9.88";
+
+        let project1 = document.getElementById("detail");
+        project1.innerText = "Developed a dynamic and user-friendly e-commerce website with features such as product listing, category filtering, shopping cart, user authentication, and payment gateway integration. Implemented a responsive design to ensure seamless user experience across devices and utilized front-end and back-end technologies to create a robust, scalable solution."
+
+        let project2 = document.getElementById("detail2");
+        project2.innerText = "Developed and tested a Horizontal Axis Savonius Turbine for wind energy generation as part of a renewable energy project. Designed the rotor blades for optimal aerodynamic efficiency, focusing on enhancing torque and rotational speed. Conducted simulations to predict performance in various wind conditions and fabricated a working prototype. Analyzed power output, efficiency, and durability, contributing to sustainable energy solutions."
+
+        let skills = document.getElementById("skill");
+        skills.innerText = "Python , Javascript, HTML, CSS, BootsTrap, GIT & GITHUB, Problem-Solving, Communication, Skill-development "
+ 
+        let declaration = document.getElementById("declar");
+        declaration.innerText = "I hereby declare that the above mentioned information was true to best of my knowledge"
+
+    
+
+    </script>
+    
+</body>
+</html>
